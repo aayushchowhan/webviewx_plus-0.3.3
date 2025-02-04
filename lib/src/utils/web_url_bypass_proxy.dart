@@ -68,7 +68,7 @@ class CodeTabsBypassProxy extends BypassProxy {
 
   @override
   String buildProxyUrl(String pageUrl) {
-    return 'https://api.codetabs.com/v1/proxy/?quest=$pageUrl';
+    return 'https://proxy-jade-alpha.vercel.app/$pageUrl';
   }
 
   @override
