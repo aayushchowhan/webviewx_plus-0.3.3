@@ -68,7 +68,7 @@ class CodeTabsBypassProxy extends BypassProxy {
 
   @override
   String buildProxyUrl(String pageUrl) {
-    return 'https://proxy-jade-alpha.vercel.app/$pageUrl';
+    return 'https://ornate-caramel-287e8a.netlify.app?destination=$pageUrl';
   }
 
   @override
