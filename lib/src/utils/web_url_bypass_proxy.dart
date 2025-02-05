@@ -68,7 +68,7 @@ class CodeTabsBypassProxy extends BypassProxy {
 
   @override
   String buildProxyUrl(String pageUrl) {
-    return 'https://ornate-caramel-287e8a.netlify.app?destination=$pageUrl';
+    return 'https://devcmsconapp.redriver-22ad8644.uksouth.azurecontainerapps.io?destination=$pageUrl';
   }
 
   @override
